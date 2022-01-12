@@ -354,7 +354,6 @@ ul {
 
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  cursor: pointer;
 }
 
 .clients-companies:not(:last-child) {
