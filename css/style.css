@@ -329,6 +329,7 @@ ul {
   height: 44px;
   background: var(--action-text-color);
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .social-icon:hover {
@@ -353,6 +354,7 @@ ul {
 
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .clients-companies:not(:last-child) {
@@ -368,6 +370,7 @@ ul {
 .icon-companies:hover,
 .icon-companies:focus {
   fill: var(--action-text-color);
+  cursor: pointer;
 }
 
 /*элементы футера*/
@@ -434,6 +437,7 @@ footer {
 .footer-icon:hover,
 .footer-icon:focus {
   background-color: var(--action-text-color);
+  cursor: pointer;
 }
 
 .footer-icon:not(:last-child) {
