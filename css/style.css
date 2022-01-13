@@ -2,7 +2,7 @@
   --primary-text-color: #212121;
   --second-text-color: #757575;
   --action-text-color: #2196f3;
-  --color-white: #fff;
+  --color-white: #ffffff;
   --hero-bg-color: #2f303a;
   --footer-bg-color: #2f303a;
   --pluses-svg-bg: #f5f4fa;
@@ -195,6 +195,10 @@ ul {
   cursor: pointer;
 }
 
+.hero-button:hover {
+  transform: scale(1.15);
+}
+
 /*центральный контент*/
 
 /* Наши положительные стороны */
@@ -250,8 +254,6 @@ ul {
   line-height: 1.16;
   text-align: center;
 }
-
-/* TEST TEST TEST */
 
 .icon-pluses:hover {
   transform: scale(1.15);
@@ -511,7 +513,8 @@ footer {
   display: inline-block;
 }
 
-.work-flex:hover {
+.work-flex:hover,
+.work-flex:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
