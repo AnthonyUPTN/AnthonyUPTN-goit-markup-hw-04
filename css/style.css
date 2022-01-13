@@ -86,17 +86,13 @@ ul {
 }
 
 .web,
-.nav-link {
+.nav-link,
+.current {
   color: var(--action-text-color);
 }
 
-/* .current {
-  border-bottom: 4px solid var(--action-text-color);
-} */
-
 .nav-link {
   color: inherit;
-  /* padding: 32px 0; */
 }
 
 .flex-header {
@@ -312,7 +308,7 @@ ul {
 }
 
 .team-about {
-  padding: 30px 0;
+  padding: 30px 32px;
 }
 
 /* соц сети на карточках */
