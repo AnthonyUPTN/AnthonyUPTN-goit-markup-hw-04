@@ -411,14 +411,11 @@ footer {
 
 .footer-flex {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-contacts {
   margin-right: 70px;
-}
-
-.join-us {
-  margin-top: 12px;
 }
 
 .social-links {
@@ -444,11 +441,6 @@ footer {
 }
 
 /*страница портфолио*/
-
-.section-portfolio {
-  padding-top: 72px;
-  padding-bottom: 116px;
-}
 
 .portfolio-nav {
   display: flex;
@@ -485,12 +477,8 @@ footer {
 .work-card {
   margin-right: 30px;
   margin-bottom: 30px;
-  max-width: 370px;
+  width: calc(100% / 3 - 30px);
   border: 1px solid #eeeeee;
-}
-
-.work-card:nth-child(n + 7) {
-  margin-bottom: 0;
 }
 
 .work-card:hover {
